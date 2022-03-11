@@ -16,7 +16,7 @@ def calculateBMI(height, weight):
         category = "Overweight"
     elif 30 <= bmi:
         category = "Obese"
-    print(bmi, weight)
+    print(height,"inches", weight,"pounds", bmi, category)
     return category
 
 
